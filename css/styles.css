@@ -1,13 +1,268 @@
+/* Basic Styles */
 
-
-body {
-	background-color: #F37F60;
-	}
-
-h1 {
-	font-family: 'catamaran', sans serif;
-	}
-
-p {
-	font-family: 'Quicksand', sans-serif;
+* {
+	box-sizing: border-box;
 }
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #F0F0F0;
+}
+/* Header Styles */
+
+header {
+	background: #3C3D41;
+	width: 100%;
+}
+header img {
+	display: block;
+	width: 12%;
+	margin-left: 20px;
+	padding: 30px;
+}
+/* Nav Styles */
+
+nav {
+	width: 100%;
+	background-color: #3c3d41;
+	height: 150px;
+	padding: 10px;
+	vertical-align: middle;
+	position: relative;
+}
+nav img {
+	margin-left: 20px;
+	height: 150px;
+	position: absolute;
+	padding: 20px;
+}
+nav ul {
+	margin: 0;
+	padding: 80px;
+	list-style: none;
+	text-align: right;
+}
+nav ul li {
+	display: inline-block;
+	padding: 10px;
+}
+nav ul li a {
+	display: block;
+	padding: 5px 10px 5px 10px;
+	color: #F0F0F0;
+	text-decoration: none;
+	font-family: 'catamaran', verdana, sans-serif;
+	font-size: 16px;
+	white-space: nowrap;
+}
+.booking {
+	display: inline-block;
+	margin-left: 250px;
+	color: #F37F60;
+}
+/* Cover Styles */
+
+.cover {
+	padding: 0;
+	display: block;
+}
+.cover img {
+	height: 936px;
+	width: 100%;
+}
+/* Description Styles */
+
+.description {
+	display: block;
+	width: 62%;
+	padding: 20px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	box-sizing: border-box;
+}
+.description p {
+	font-family: 'catamaran', verdana, sans-serif;
+	color: #3c3d41;
+	line-height: 1.3em;
+	font-size: 18px;
+}
+/* Icons Styles */
+
+.icons {
+	display: block;
+	width: 70%;
+	padding: 20px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	box-sizing: border-box;
+	position: relative;
+}
+.icons h1 {
+	font-family: 'quicksand', verdana, sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 50px;
+}
+.icons img {
+	width: 160px;
+	height: 160px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	margin-left: 50px;
+	display: inline-block;
+	border: 1px solid #3c3d41;
+	border-spacing: 10px;
+	padding: 10px;
+	white-space: none;
+}
+.icons img:nth-child(3n) {
+	margin: 0 20px;
+}
+.icons:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.icons a {
+	box-sizing: border-box;
+}
+.icons p {
+	text-decoration: underline;
+	text-align: right;
+	padding-right: 112px;
+}
+/* Maps */
+
+.map {
+	display: block;
+	width: 850px;
+	padding: 20px;
+	margin-top: 20px;
+	margin-left: 300px;
+}
+.map h1 {
+	font-family: 'quicksand', verdana, sans-serif;
+	font-size: 30px;
+	color: #3C3D41;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+.map iframe {
+	width: 100%;
+	height: 350px;
+}
+/* Footer Styles */
+
+footer {
+	padding: 40px;
+	background-color: #3C3D41;
+	font-family: 'quicksand', verdana, sans-serif;
+	color: #f0f0f0;
+	font-size: 14px;
+	text-align: center;
+}
+/* Social Media Icon Styles */
+
+#socialmedia {
+	text-align: center;
+	text-decoration: none;
+	font-family: 'fa-brands-400'
+}
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+}
+
+/* Main styles */
+
+main {
+	padding: 30px;
+}
+/* Accommodation Styles */
+
+.Accommodation {
+	padding: 20px;
+	width: 60%;
+	border-radius: 10px;
+	margin: auto;
+}
+
+.Accommodation h1 {
+	font-family: 'quicksand', verdana, sans-serif;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.Accommodation p {
+	margin-left: 0 auto;
+	margin-right: 0 auto;
+	width: 100%;
+	font-family: 'catamaran', verdana, sans-serif;
+	line-height: 1.3em;
+}
+
+/* Article Styles */
+
+.Gallery {
+	width: 100%;
+	padding: 50px;
+	text-align: justify;
+	flex-direction: row;
+	justify-content: flex-start;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.Gallery a {
+	margin-bottom: 50px;
+}
+
+.Gallery img {
+	width: 350px;
+	height: 250px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.Gallery p {
+	width: 350px;
+	padding: 20px;
+	background-color: #3C3D41;
+	color: #F37F60;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	font-family: 'quicksand', verdana, sans-serif;
+	text-align: center;
+	margin: -10px 0 0 0;
+}
+
+.Gallery:hover {
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
