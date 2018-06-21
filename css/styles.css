@@ -17,7 +17,7 @@ header {
 header img {
 	display: block;
 	width: 12%;
-	margin-left: 20px;
+	margin-left: 2`0px;
 	padding: 30px;
 }
 /* Nav Styles */
@@ -27,7 +27,6 @@ nav {
 	background-color: #3c3d41;
 	height: 150px;
 	padding: 10px;
-	vertical-align: middle;
 	position: relative;
 }
 nav img {
@@ -55,10 +54,21 @@ nav ul li a {
 	font-size: 16px;
 	white-space: nowrap;
 }
+
+nav ul li a:hover {
+	color: #F37F60;
+}
+
+/* Booking Styles */
+
 .booking {
 	display: inline-block;
 	margin-left: 250px;
 	color: #F37F60;
+}
+
+.booking:hover {
+	color: #f0f0f0;
 }
 /* Cover Styles */
 
@@ -182,6 +192,7 @@ footer {
 main {
 	padding: 30px;
 }
+
 /* Accommodation Styles */
 
 .Accommodation {
@@ -206,7 +217,7 @@ main {
 	line-height: 1.3em;
 }
 
-/* Article Styles */
+/* Gallery Styles */
 
 .Gallery {
 	width: 100%;
@@ -242,9 +253,184 @@ main {
 	margin: -10px 0 0 0;
 }
 
-.Gallery:hover {
-	color: white;
+.Gallery p:hover {
+	color: #f0f0f0;
 }
+
+/* Carousel Styles */
+
+.carousel {
+	width: 100%;
+	padding: 50px;
+}
+
+.carousel h1 {
+	text-align: center;
+	font-family: 'quicksand', verdana, sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.carousel img {
+	width: 50%;
+}
+
+/* Options Styles */
+
+hr {
+	width: 100%;
+}
+.options {
+	width: 100%;
+	vertical-align: middle;
+	position: relative;
+	padding: 0;
+}
+
+.options ul {
+	margin: 0;
+	padding: 0 auto;
+	list-style: none;
+	text-align: center;
+}
+
+.options ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+}
+
+.options ul li a {
+	text-decoration: none;
+	color: #3C3D41;
+	font-family: 'quicksand', verdana, sans-serif;
+	font-size: 16px;
+	padding: 10px;
+}
+
+
+
+
+
+
+/* Form Styles */
+
+form h1 {
+	font-family: 'quicksand', verdana, sans-serif;
+	font-size: 30px;
+	text-align: center;
+}
+
+
+.form-style-1 {
+	width: 50%;
+	margin: 10px auto;
+	padding: 20px 12px 10px 20px;
+	font-size: 14px;
+	font-family: 'quicksand', verdana, sans-serif;
+}
+
+.form-style-1 li {
+	list-style: none;
+	padding: 0;
+	margin-top: 10px;
+	display: block;
+}
+
+.form-style-1 label {
+	display: block;
+	font-weight: bold;
+	margin: 0 0 3px 0;
+	padding: 0;
+}
+
+.form-style-1 input[type="text"]:focus, .contactus input[type="email"]:focus, textarea, select {
+	box-sizing: border-box;
+	border: 1px solid #3C3D41;
+	padding: 7px;
+	outline: 0;
+}
+
+.form-style-1 input[type="text"]:focus, .contactus input[type="email"]:focus, textarea:active, select:focus {
+	border: 1px solid #3C3D41;
+	-o-box-shadow: 0 0 8px #3C3D41;
+	-webkit-box-shadow: 0 0 8px #3C3D41;
+	-moz-box-shadow: 0 0 8px #3C3D41;
+	box-shadow: 0 0 8px #3C3D41;
+} 
+
+select {
+	height: 34px;
+	width: 286px;
+}
+
+.feild-divided {
+	width: 48%;
+}
+
+.feild-email {
+	width: 96.5%;
+}
+
+.feild-phone {
+	width: 96.5%;
+}
+
+.feild-message {
+	height: 100px;
+	width: 96.5%;
+}
+
+.feild-textarea {
+	height: 100px;
+}
+
+input[type="submit"] {
+	background-color: #3C3D41;
+	padding: 8px 15px;
+	border: none;
+	color: #F37F60;
+	transition: background-color;
+}
+
+input[type="submit"]:hover {
+	background-color: #F37F60;
+	color: #f0f0f0;
+	box-shadow: none;
+}
+
+fieldset {
+	width: 450px;
+	margin: 0 auto;
+}
+
+/* Flexslider Styles */
+
+
+
+.flexslider {
+	width: 50%;
+	margin: 10px auto;
+	padding: 20px 12px 10px 20px;
+	font-size: 14px;
+	font-family: 'quicksand', verdana, sans-serif;
+}
+
+.flexslider ul {
+	list-style: none;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 

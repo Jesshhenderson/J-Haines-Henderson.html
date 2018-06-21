@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Page</title>
+	<meta charset="utf-8">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+	<link href="css/lightbox.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Catamaran|Quicksand" rel="stylesheet">
+	<link href="css/fa-brands.css" rel="stylesheet" type="text/css">
+	<meta content="wild mushroom, boutique hotel, hospitality, html" name="keywords">
+	<meta content="Wild mushroom website" name="description">
+	<meta content="Jessica Haines-Henderson" name="author">
+	<link href="favicon.png" rel="icon" type="image/png">
+</head>
+<body>
+	<nav>
+		<a href="index.html"><img alt="Wild Mushroom Logo" src="img/logo-white.png"></a>
+		<ul>
+			<li>
+				<a href="#">About Us</a>
+			</li>
+			<li>
+				<a href="accomodation.html">Accommodation</a>
+			</li>
+			<li>
+				<a href="#">Spa</a>
+			</li>
+			<li>
+				<a href="#">Gallery</a>
+			</li>
+			<li>
+				<a href="#">Local</a>
+			</li>
+			<li>
+				<a class="booking" href="#">Book Your Stay +</a>
+			</li>
+		</ul>
+	</nav>
+	<main>
+		<section class="options">
+			<ul>
+				<li>
+					<a href="#">Online Bookings</a>
+				</li>
+				<li>
+					<a href="#">|</a>
+				</li>
+				<li>
+					<a href="#">Directions</a>
+				</li>
+				<li>
+					<a href="#">|</a>
+				</li>
+				<li>
+					<a href="#">Contact</a>
+				</li>
+			</ul>
+			<hr>
+		</section>
+		<form action="contact" method="post">
+			<h1>Contact</h1>
+			<ul class="form-style-1">
+				<li><label>Full Name</label> <input class="feild-divided" name="firstName" placeholder="First Name" required="" type="text"> <input class="feild-divided" name="lastName" placeholder="Last Name" required="" type="text"></li>
+				<li><label>Email Address</label> <input class="feild-email" name="email" placeholder="email address" required="" type="email"></li>
+				<li><label>Telephone Number</label> <input class="feild-phone" name="telephone" type="tel"></li>
+				<li><label>Subject</label> <select class="feild-select" name="subject">
+					<option value="none">
+						-
+					</option>
+					<option value="bookings">
+						Bookings
+					</option>
+					<option value="complaint">
+						Complaint
+					</option>
+					<option value="compliment">
+						Compliment
+					</option>
+					<option value="general">
+						General Enquiries
+					</option>
+				</select></li>
+				<li><label>Your Message</label> 
+				<textarea class="feild-message" name="message"></textarea></li>
+				<li><input name="send" type="submit"></li>
+			</ul>
+		</form>
+	</main>
+	<footer>
+		&copy; 2018 Wild Mushroom Boutique Hotel, 39 Digteby Estate, Vlottenburg Road, Stellenbosch, South Africa<br>
+		<div id="socialmedia">
+			<i class="fab fa-facebook"></i> <i class="fab fa-twitter-square"></i> <i class="fab fa-instagram"></i>
+		</div>
+		<ul>
+			<li>Telephone +27 (0)21 881 3586</li>
+			<li>Email info@wildmushroom.co.za</li>
+		</ul>
+	</footer>
+</body>
+</html>
