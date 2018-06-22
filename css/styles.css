@@ -54,36 +54,8 @@ nav ul li a {
 	font-size: 16px;
 	white-space: nowrap;
 }
-
 nav ul li a:hover {
 	color: #F37F60;
-}
-
-/* Cover Styles */
-.cover {
-    position: relative;
-    text-align: center;
-    margin: 
-}
-
-.centered {
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'catamaran', verdana, sans-serif;
-    font-size: 70px;
-}
-
-.centeredbelow {
-	position: absolute;
-	top: 44%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	font-family: 'quicksand', verdana, sans-serif;
-	font-size: 20px;
-	color: #3C3D41;
-
 }
 /* Booking Styles */
 
@@ -92,19 +64,34 @@ nav ul li a:hover {
 	margin-left: 250px;
 	color: #F37F60;
 }
-
 .booking:hover {
 	color: #f0f0f0;
 }
+/* Index Page Styles */
+
 /* Cover Styles */
 
 .cover {
-	padding: 0;
-	display: block;
-}
-.cover img {
-	height: 936px;
+	position: relative;
+	text-align: center;
 	width: 100%;
+}
+.centered {
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'catamaran', verdana, sans-serif;
+	font-size: 70px;
+}
+.centeredbelow {
+	position: absolute;
+	top: 44%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'quicksand', verdana, sans-serif;
+	font-size: 20px;
+	color: #3C3D41;
 }
 /* Description Styles */
 
@@ -174,7 +161,6 @@ nav ul li a:hover {
 	text-align: right;
 	padding-right: 112px;
 }
-
 .icons p:hover {
 	color: #F37F60;
 }
@@ -210,21 +196,18 @@ footer {
 }
 /* Social Media Icon Styles */
 
-#socialmedia {
+.socialmedia {
 	text-align: center;
 	text-decoration: none;
-	font-family: 'fa-brands-400'
+	font-family: 'quicksand', verdana, sans-serif;
+	padding: 10px 30px 10px 30px;
 }
-.fa-facebook {
-	background: #3B5998;
-	color: white;
-}
-
 /* Main styles */
 
 main {
 	padding: 30px;
 }
+/* Accommodation Page Styles */
 
 /* Accommodation Styles */
 
@@ -234,14 +217,12 @@ main {
 	border-radius: 10px;
 	margin: auto;
 }
-
 .Accommodation h1 {
 	font-family: 'quicksand', verdana, sans-serif;
 	text-align: center;
 	font-size: 30px;
 	font-weight: bold;
 }
-
 .Accommodation p {
 	margin-left: 0 auto;
 	margin-right: 0 auto;
@@ -249,7 +230,6 @@ main {
 	font-family: 'catamaran', verdana, sans-serif;
 	line-height: 1.3em;
 }
-
 /* Gallery Styles */
 
 .Gallery {
@@ -262,18 +242,15 @@ main {
 	flex-flow: row wrap;
 	justify-content: space-around;
 }
-
 .Gallery a {
 	margin-bottom: 50px;
 }
-
 .Gallery img {
 	width: 350px;
 	height: 250px;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 }
-
 .Gallery p {
 	width: 350px;
 	padding: 20px;
@@ -285,28 +262,10 @@ main {
 	text-align: center;
 	margin: -10px 0 0 0;
 }
-
 .Gallery p:hover {
 	color: #f0f0f0;
 }
-
-/* Carousel Styles */
-
-.carousel {
-	width: 100%;
-	padding: 50px;
-}
-
-.carousel h1 {
-	text-align: center;
-	font-family: 'quicksand', verdana, sans-serif;
-	font-size: 30px;
-	font-weight: bold;
-}
-
-.carousel img {
-	width: 50%;
-}
+/* Contact Page Styles */
 
 /* Options Styles */
 
@@ -319,20 +278,17 @@ hr {
 	position: relative;
 	padding: 10px 0 0 0;
 }
-
 .options ul {
 	margin: 0;
 	padding: 0 auto;
 	list-style: none;
 	text-align: center;
 }
-
 .options ul li {
 	list-style: none;
 	display: inline-block;
 	padding: 10px;
 }
-
 .options ul li a {
 	text-decoration: none;
 	color: #3C3D41;
@@ -340,7 +296,9 @@ hr {
 	font-size: 16px;
 	padding: 10px;
 }
-
+.options ul li a:hover {
+	color: #F37F60;
+}
 /* Form Styles */
 
 form h1 {
@@ -348,71 +306,55 @@ form h1 {
 	font-size: 30px;
 	text-align: center;
 }
-
-
-.form-style-1 {
+.contact-1 {
 	width: 50%;
 	margin: 10px auto;
 	padding: 20px 12px 10px 20px;
 	font-size: 14px;
 	font-family: 'quicksand', verdana, sans-serif;
 }
-
-.form-style-1 li {
+.contact-1 li {
 	list-style: none;
 	padding: 0;
 	margin-top: 10px;
 	display: block;
 }
-
-.form-style-1 label {
+.contact-1 label {
 	display: block;
 	font-weight: bold;
 	margin: 0 0 3px 0;
 	padding: 0;
 }
-
-.form-style-1 input[type="text"]:focus, .contactus input[type="email"]:focus, textarea, select {
+.contact-1 input[type="text"]:focus, .contactus input[type="email"]:focus, textarea, select {
 	box-sizing: border-box;
 	border: 1px solid #3C3D41;
 	padding: 7px;
 	outline: 0;
 }
-
-.form-style-1 input[type="text"]:focus, .contactus input[type="email"]:focus, textarea:active, select:focus {
+.contact-1 input[type="text"]:focus, .contactus input[type="email"]:focus, textarea:active, select:focus {
 	border: 1px solid #3C3D41;
 	-o-box-shadow: 0 0 8px #3C3D41;
 	-webkit-box-shadow: 0 0 8px #3C3D41;
 	-moz-box-shadow: 0 0 8px #3C3D41;
 	box-shadow: 0 0 8px #3C3D41;
-} 
-
+}
 select {
 	height: 34px;
 	width: 286px;
 }
-
-.feild-divided {
+.form-name {
 	width: 48%;
 }
-
-.feild-email {
+.form-email {
 	width: 96.5%;
 }
-
-.feild-phone {
+.form-phone {
 	width: 96.5%;
 }
-
-.feild-message {
+.form-message {
 	height: 100px;
 	width: 96.5%;
 }
-
-.feild-textarea {
-	height: 100px;
-}
-
 input[type="submit"] {
 	background-color: #3C3D41;
 	padding: 8px 15px;
@@ -420,135 +362,107 @@ input[type="submit"] {
 	color: #F37F60;
 	transition: background-color;
 }
-
 input[type="submit"]:hover {
 	background-color: #F37F60;
 	color: #f0f0f0;
 	box-shadow: none;
 }
-
 fieldset {
 	width: 450px;
 	margin: 0 auto;
 }
+/* Room1 Styles
 
-/* Slideshow-container Styles */
-
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+.room1img {
+	display: block;
+	padding: 20px;
+	margin-left: 0 auto;
+	margin-right: 0 auto;
+	
 }
 
-/* Hide images */
+.roomimg img {
+	align-content: center;
+}
+.room1img p {
+	font-family: 'catamaran', verdana, sans-serif;
+	font-size: 16px;
+	margin: 50px;
+	align-content: center;
+}
+
+
+/* Room-1 Styles 
+
+.container {
+	position: relative;
+	background-color: white;
+}
 
 .mySlides {
-    display: none;
+	display: none;
 }
 
-/* Next & Previous Buttons */
-
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+.cursor {
+	cursor: pointer;
 }
 
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev .next {
+	cursor: pointer;
+	position: absolute;
+	top: 40%;
+	width: auto;
+	padding: 16px;
+	margin-top: -50px;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	-webkit-user-select: none;
 }
 
-/* Caption Text */
-
-.text {
-  color: #3C3D41;
-  font-size: 15px;
-  font-family: 'quicksand', verdana, sans-serif;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
 }
 
-/* Number text */
+.prev:hover .next:hover {
+	background-color: rgba(0,0,0,0.8);
+}
 
 .numbertext {
-  color: #3C3D41;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+	color: #F37F60;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
 }
 
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #3C3D41;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+.caption-container {
+	text-align: center;
+	background-color: #222;
+	padding: 2px 16px;
+	color: white;
 }
 
-.active, .dot:hover {
-  background-color: #F37F60;
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
 }
 
-/* Fading animation */
-
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+.column {
+	float: left;
+	width: 16.66%;
 }
 
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+.demo {
+	opacity: 0.6;
 }
 
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+.active,
+.demo:hover {
+	opacity: 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+*/

@@ -11,6 +11,7 @@
 	<meta content="Wild mushroom website" name="description">
 	<meta content="Jessica Haines-Henderson" name="author">
 	<link href="favicon.png" rel="icon" type="image/png">
+	<link href="css/all.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<nav>
@@ -37,34 +38,33 @@
 		</ul>
 	</nav>
 	<section class="options">
-			<ul>
-				<li>
-					<a href="#">Online Bookings</a>
-				</li>
-				<li>
-					<a href="#">|</a>
-				</li>
-				<li>
-					<a href="#">Directions</a>
-				</li>
-				<li>
-					<a href="#">|</a>
-				</li>
-				<li>
-					<a href="#">Contact</a>
-				</li>
-			</ul>
-			<hr>
-		</section>
+		<ul>
+			<li>
+				<a href="#">Online Bookings</a>
+			</li>
+			<li>
+				<a href="#">|</a>
+			</li>
+			<li>
+				<a href="#">Directions</a>
+			</li>
+			<li>
+				<a href="#">|</a>
+			</li>
+			<li>
+				<a href="#">Contact</a>
+			</li>
+		</ul>
+		<hr>
+	</section>
 	<main>
-		
 		<form action="contact" method="post">
 			<h1>Contact</h1>
-			<ul class="form-style-1">
-				<li><label>Full Name</label> <input class="feild-divided" name="firstName" placeholder="First Name" required="" type="text"> <input class="feild-divided" name="lastName" placeholder="Last Name" required="" type="text"></li>
-				<li><label>Email Address</label> <input class="feild-email" name="email" placeholder="email address" required="" type="email"></li>
-				<li><label>Telephone Number</label> <input class="feild-phone" name="telephone" type="tel"></li>
-				<li><label>Subject</label> <select class="feild-select" name="subject">
+			<ul class="contact-1">
+				<li><label>Full Name</label> <input class="form-name" name="firstName" placeholder="First Name" required="" type="text"> <input class="form-name" name="lastName" placeholder="Last Name" required="" type="text"></li>
+				<li><label>Email Address</label> <input class="form-email" name="email" placeholder="email address" required="" type="email"></li>
+				<li><label>Telephone Number</label> <input class="form-phone" name="telephone" type="tel"></li>
+				<li><label>Subject</label> <select class="form-select" name="subject">
 					<option value="none">
 						-
 					</option>
@@ -82,20 +82,16 @@
 					</option>
 				</select></li>
 				<li><label>Your Message</label> 
-				<textarea class="feild-message" name="message"></textarea></li>
+				<textarea class="form-message" name="message"></textarea></li>
 				<li><input name="send" type="submit"></li>
 			</ul>
 		</form>
 	</main>
 	<footer>
 		&copy; 2018 Wild Mushroom Boutique Hotel, 39 Digteby Estate, Vlottenburg Road, Stellenbosch, South Africa<br>
-		<div id="socialmedia">
-			<i class="fab fa-facebook"></i> <i class="fab fa-twitter-square"></i> <i class="fab fa-instagram"></i>
+		<div class="socialmedia">
+			<span style="font-size: 14px; color: #F37F60;"><i class="fab fa-facebook-square"></i></span> <span style="font-size: 14px; color: #F37F60;"><i class="fab fa-twitter-square"></i></span> <span style="font-size: 14px; color: #F37F60;"><i class="fab fa-instagram"></i></span> Telephone +27 (0)21 881 3586 Email info@wildmushroom.co.za
 		</div>
-		<ul>
-			<li>Telephone +27 (0)21 881 3586</li>
-			<li>Email info@wildmushroom.co.za</li>
-		</ul>
 	</footer>
 </body>
 </html>
