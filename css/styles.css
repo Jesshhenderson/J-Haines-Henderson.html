@@ -59,6 +59,32 @@ nav ul li a:hover {
 	color: #F37F60;
 }
 
+/* Cover Styles */
+.cover {
+    position: relative;
+    text-align: center;
+    margin: 
+}
+
+.centered {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'catamaran', verdana, sans-serif;
+    font-size: 70px;
+}
+
+.centeredbelow {
+	position: absolute;
+	top: 44%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'quicksand', verdana, sans-serif;
+	font-size: 20px;
+	color: #3C3D41;
+
+}
 /* Booking Styles */
 
 .booking {
@@ -141,9 +167,16 @@ nav ul li a:hover {
 	box-sizing: border-box;
 }
 .icons p {
+	font-family: 'catamaran', verdana, sans-serif;
+	font-size: 14px;
+	color: #3C3D41;
 	text-decoration: underline;
 	text-align: right;
 	padding-right: 112px;
+}
+
+.icons p:hover {
+	color: #F37F60;
 }
 /* Maps */
 
@@ -284,7 +317,7 @@ hr {
 	width: 100%;
 	vertical-align: middle;
 	position: relative;
-	padding: 0;
+	padding: 10px 0 0 0;
 }
 
 .options ul {
@@ -307,11 +340,6 @@ hr {
 	font-size: 16px;
 	padding: 10px;
 }
-
-
-
-
-
 
 /* Form Styles */
 
@@ -404,25 +432,97 @@ fieldset {
 	margin: 0 auto;
 }
 
-/* Flexslider Styles */
+/* Slideshow-container Styles */
 
-
-
-.flexslider {
-	width: 50%;
-	margin: 10px auto;
-	padding: 20px 12px 10px 20px;
-	font-size: 14px;
-	font-family: 'quicksand', verdana, sans-serif;
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
 }
 
-.flexslider ul {
-	list-style: none;
-	text-decoration: none;
+/* Hide images */
+
+.mySlides {
+    display: none;
 }
 
+/* Next & Previous Buttons */
 
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
 
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption Text */
+
+.text {
+  color: #3C3D41;
+  font-size: 15px;
+  font-family: 'quicksand', verdana, sans-serif;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text */
+
+.numbertext {
+  color: #3C3D41;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #3C3D41;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #F37F60;
+}
+
+/* Fading animation */
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
 
 
 
